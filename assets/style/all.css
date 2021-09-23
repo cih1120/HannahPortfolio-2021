@@ -11656,23 +11656,40 @@ a ::-moz-selection {
   color: #b2b2b2 !important;
 }
 
-.workList {
+.workWrap {
+  width: 94vw;
   position: relative;
-  max-height: 95vh;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .workWrap {
+    margin-left: 6vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .workTitle {
+    position: fixed;
+    left: 10vw;
+    top: 10px;
+  }
+}
+
+.workList {
   width: 100%;
 }
 
 @media (min-width: 992px) {
   .workList {
-    width: 80vw;
-    right: -5vw;
-    height: 95vh;
+    width: 70vw;
+    margin-left: 24vw;
   }
 }
 
 .workList__item {
-  width: 40vw;
-  height: 52vw;
+  width: 44vw;
+  height: 58vw;
   margin-bottom: 3vw;
   display: block;
   border-radius: 4px;
@@ -11688,18 +11705,18 @@ a ::-moz-selection {
 
 @media (min-width: 768px) {
   .workList__item {
-    width: 30vw;
-    height: 38vw;
-    margin-bottom: 2vw;
+    width: 43vw;
+    height: 56vw;
+    margin-bottom: 4vw;
   }
 }
 
 @media (min-width: 992px) {
   .workList__item {
-    width: 16vw;
+    width: 17vw;
     height: 21vw;
-    margin-right: 25px;
-    margin-bottom: 0;
+    margin-right: 4vw;
+    margin-bottom: 2vw;
   }
 }
 
