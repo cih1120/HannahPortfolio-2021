@@ -11676,6 +11676,10 @@ a ::-moz-selection {
   }
 }
 
+.ovh {
+  overflow-x: hidden;
+}
+
 .workList {
   width: 100%;
 }
